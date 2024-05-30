@@ -1,0 +1,76 @@
+.form__header {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.authorization__form {
+  margin: 40px auto 0px auto;
+  width: 33.33%;
+}
+
+.authorization__input {
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 15px 30px;
+  border-radius: 20px;
+  border: none;
+  background: #e3e3e3;
+  font-family: Nunito;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 143%;
+  color: #34b847;
+}
+
+.authorization__input::placeholder {
+  color: #34b847;
+}
+
+.forgot__password__link {
+  font-family: Nunito;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 143%;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #34b847;
+}
+
+.authorization__button {
+  width: 100%;
+  border-radius: 20px;
+  padding: 15px 40px;
+  margin-top: 20px;
+  cursor: pointer;
+  border: none;
+  font-family: Nunito;
+  font-weight: 500;
+  font-size: 14px;
+  color: #fff;
+  background: #34b847;
+  transition: 0.3s ease-in-out;
+}
+
+.authorization__button:hover {
+  background: #38a748;
+}
+
+.error__text {
+  color: #ff5858;
+  font-family: Nunito;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+@media (max-width: 1000px) {
+  .authorization__form {
+    width: 70%;
+  }
+}
+
+@media (max-width: 500px) {
+  .authorization__form {
+    width: 100%;
+  }
+}

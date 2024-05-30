@@ -1,0 +1,10 @@
+export { MainPage } from "./MainPage";
+export { SignInPage } from "./SignInPage";
+export { SignUpPage } from "./SignUpPage";
+export { AboutPage } from "./AboutPage";
+export { ProfilePage } from "./ProfilePage";
+export { CreateModulePage } from "./CreateModulePage";
+export { TestPage } from "./TestPage";
+export { ModulePage } from "./ModulePage";
+export { RepetitionPage } from "./RepetitionPage";
+export { MemorizationPage } from "./MemorizationPage";

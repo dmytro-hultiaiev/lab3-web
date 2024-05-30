@@ -1,0 +1,195 @@
+.page__header {
+  margin-top: 60px;
+}
+
+.memorization__container {
+  margin-top: 50px;
+}
+
+.memorization__term {
+  font-family: Nunito;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 111%;
+  color: #000;
+  text-align: center;
+}
+
+.memorization__items {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 50%;
+  margin: 30px auto;
+}
+
+.memorization__item {
+  border-radius: 20px;
+  padding: 20px 40px;
+  text-align: center;
+  background: #e3e3e3;
+  width: calc(50% - 30px);
+  margin: 15px;
+  font-family: Nunito;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 125%;
+  color: #000;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.memorization__item:hover {
+  background: #dedede;
+}
+
+.memorization__item.green {
+  background: #34b847;
+  color: #fff;
+}
+
+.memorization__item.red {
+  background: #ff5858;
+  color: #fff;
+}
+
+.memorization__message__container {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.memorization__message__text {
+  font-family: Nunito;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 125%;
+}
+
+.memorization__message__text.red {
+  color: #ff5858;
+}
+
+.memorization__message__text.green {
+  color: #34b847;
+}
+
+.memorization__message__button {
+  font-family: Nunito;
+  font-weight: 600;
+  font-size: 16px;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+.memorization__message__button.red {
+  color: #ff5858;
+}
+
+.memorization__message__button.green {
+  color: #34b847;
+}
+
+.memorization__form {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.memorization__input {
+  width: 34%;
+  border-radius: 20px;
+  padding: 20px 30px;
+  background: #e3e3e3;
+  border: none;
+  font-family: Nunito;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 125%;
+  color: #000;
+  margin-right: 30px;
+}
+
+.memorization__input::placeholder {
+  color: #000;
+}
+
+.memorization__button {
+  border-radius: 20px;
+  padding: 20px 30px;
+  background: #34b847;
+  border: none;
+  font-family: Nunito;
+  font-weight: 500;
+  font-size: 14px;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.memorization__button:hover {
+  background: #38a748;
+}
+
+@media (max-width: 900px) {
+  .memorization__items {
+    margin-top: 30px;
+    width: 100%;
+  }
+
+  .memorization__message__container {
+    width: 100%;
+    padding: 0px 15px;
+  }
+
+  .memorization__input {
+    width: 70%;
+  }
+
+  .memorization__button {
+    width: 30%;
+  }
+}
+
+@media (max-width: 600px) {
+  .memorization__form {
+    display: block;
+  }
+
+  .memorization__input {
+    width: 100%;
+    margin-right: 0px;
+  }
+
+  .memorization__button {
+    width: 100%;
+  }
+
+  .memorization__button {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 500px) {
+  .memorization__item {
+    width: 100%;
+    margin: 0px 0px 15px 0px;
+  }
+
+  .memorization__message__container {
+    display: block;
+    text-align: center;
+  }
+
+  .memorization__message__button {
+    margin-top: 15px;
+  }
+}

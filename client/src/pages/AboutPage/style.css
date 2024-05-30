@@ -1,0 +1,18 @@
+.page__header {
+  margin-top: 60px;
+}
+
+.about__text {
+  margin-top: 40px;
+  font-family: Nunito;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 125%;
+  color: #000;
+  line-height: 140%;
+  text-align: justify;
+}
+
+.about__text p {
+  margin-bottom: 20px;
+}
